@@ -1,0 +1,73 @@
+@import "tailwindcss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.leftside{
+  padding: 1.33rem;
+  border-bottom-right-radius: 1.3rem;
+  border-top-right-radius: 1.3rem;
+  gap: 3rem;
+
+}
+.leftnav{
+  padding: 1rem;
+  
+}
+.leftnav button{
+   padding: 0.5rem;
+}
+.leftnav button:hover{
+ 
+  background-color: rgb(209, 209, 209);
+  border-radius: 0.3rem;
+  transition: all 0.1ms ease-in;
+}
+.pagecheak{
+  padding-left: 0.5rem;
+  padding-top: 0.7rem;
+}
+.pagecheak::-webkit-scrollbar{
+  display: none;
+}
+
+.cardpage{
+  height: 25px;
+    width: 1000%;
+    border-radius: 0.2rem;
+    background: rgb(197, 197, 197);
+}
+.assentSearch{
+  padding: 0.9rem;
+}
+.listassent{
+  padding: 0.9rem;
+  overflow:scroll;
+    height: 70vh;
+}
+.listassent::-webkit-scrollbar{
+  display: none;
+}
+.canvas{
+  padding: 1.33rem;
+  border-radius: 1.3rem;
+  
+  gap: 3rem;
+}
+.tools{
+  padding-inline: 0.6rem;
+  align-items: center;
+
+}
+.tools button{
+  background-color: rgb(255, 255, 255);
+   padding: 0.4rem;
+   border-radius: 0.4rem;
+
+}
