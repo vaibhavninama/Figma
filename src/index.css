@@ -57,6 +57,7 @@ html, body {
 .canvas{
   padding: 1.33rem;
   border-radius: 1.3rem;
+  overflow: hidden;
   
   gap: 3rem;
 }
@@ -70,4 +71,7 @@ html, body {
    padding: 0.4rem;
    border-radius: 0.4rem;
 
+}
+.ccc{
+  overflow: hidden;
 }

@@ -5,9 +5,9 @@ import CanvaPage from './CanvaComponents/CanvaPage'
 const Canva = () => {
      const [toolsActive, setToolsActive] = useState('cursor')
   return (
-    <div className='w-4/6 bg-gray-50  rounded-sm canvas' >
+    <div className='w-4/6 bg-gray-50  relative rounded-sm canvas' >
       <div className='parentCenva bg-red-700 w-full h-6/6 relative'>
-            <CanvaPage />
+            <CanvaPage  toolsActive={toolsActive} />
             <Tools toolsActive={toolsActive} setToolsActive={setToolsActive} />   
       </div>
 
